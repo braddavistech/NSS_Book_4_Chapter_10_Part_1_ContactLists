@@ -1,0 +1,62 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: black;
+}
+#form {
+  font-size: 5vw;
+  display: inline-block;
+  width: 50%;
+}
+.normalInput {
+  display: flex;
+  flex-direction: column;
+  margin: 8%;
+  padding: 2%;
+  width: 80%;
+  z-index: 1;
+  text-align: center;
+  background-color: white;
+}
+.labelName {
+  font-size: 5vw;
+}
+.inputBox {
+  height: 3vw;
+}
+#recordContact {
+  background-color: red;
+  width: 50%;
+  font-size: 2vw;
+  font-weight: bold;
+  margin: 4%;
+  border: 2px solid black;
+  border-radius: 18px;
+  height: 4vw;
+  margin-left: 25%;
+}
+#printMe {
+  display: flex;
+  position: absolute;
+  top: 0px;
+  margin-top: 4%;
+  margin-left: 50%;
+  width: 50%;
+}
+.myInfo {
+  margin: 8%;
+  background-color: white;
+  width: 80%;
+  font-weight: bold;
+  font-size: 2vw;
+  padding: 2%;
+}
+.contactPrint {
+  background-color: white;
+  margin: 4%;
+  padding: 12px;
+  font-size: 3vw;
+  font-weight: bold;
+}
